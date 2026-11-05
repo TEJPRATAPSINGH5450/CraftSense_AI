@@ -1,0 +1,5 @@
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python generate_demo_data.py
+streamlit run app.py
